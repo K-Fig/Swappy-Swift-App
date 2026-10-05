@@ -1,0 +1,13 @@
+{
+  "codeConnect": {
+    "language": "swift",
+    "label": "Swift",
+    "include": ["CodeConnect/**/*.figma.ts"],
+    "exclude": ["**/node_modules/**", "**/Pods/**", "**/DerivedData/**"],
+    "importPaths": {
+      "Swappy/DesignSystem/Atoms/*": "Swappy",
+      "Swappy/DesignSystem/Molecules/*": "Swappy",
+      "Swappy/DesignSystem/Organisms/*": "Swappy"
+    }
+  }
+}
